@@ -14,7 +14,7 @@ class ProductController extends Controller
     public function index()
     {
        // return product::all();
-        $product = product::paginate(4);
+        $product = product::paginate(8);
         return $product;
 
     }
@@ -76,20 +76,20 @@ class ProductController extends Controller
     }
     public function getring()
     {
-       $product=Product::where('category','ring')->paginate(4);
+       $product=Product::where('category','ring')->paginate(8);
        // $product=Product::paginate(4);
         return $product;
     }
     public function getpendant()
     {
-        $product=Product::where('category','pendant')->paginate(4);
+        $product=Product::where('category','pendant')->paginate(8);
         return $product;
     }
     public function getbracelet()
     {
 //        $this->category="bracelet";
 //        $product = DB::table('products')->where('category',$this->category)->get();
-        $product=Product::where('category','bracelet')->paginate(4);
+        $product=Product::where('category','bracelet')->paginate(8);
         return $product;
     }
 }

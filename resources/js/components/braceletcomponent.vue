@@ -6,7 +6,7 @@
                 <router-link style="text-decoration: white;color: greenyellow" class="breadcrumb-item" to="/">Главная</router-link>-->
                 <router-link style="text-decoration: white;color: greenyellow" class="breadcrumb-item" to="/catalog">Каталог</router-link>-->
                 <router-link style="text-decoration: white;color: greenyellow" class="breadcrumb-item" to="/ring">Кольца</router-link>-->
-                <li style="color: gainsboro" class="breadcrumb-item active" aria-current="page">Браслеты</li>
+                <li style="color: gainsboro" class="breadcrumb-item active" aria-current="page">Браслеты</li>-->
                 <router-link style="text-decoration: white;color: greenyellow" class="breadcrumb-item" to="/pendant">Кулоны</router-link>-->
 
             </ol>
@@ -17,7 +17,7 @@
                     <div class="card-text" style="color: white">{{ product.category }}</div>
                 </div>
                 <div class="card text-center" style="width: 18rem">
-                    <img v-bind:src="'/storage/'+product.image">
+                        <img v-bind:src="'/storage/'+product.image">
                     <div class="card-body ">
                         <h4 class="card-text">{{ product.name }}</h4>
                         <div class="card-text">{{ product.price }}</div>
@@ -25,9 +25,9 @@
                     </div>
                 </div>
             </div>
-            <div class="pagin">
-                <pagination  :data="products" @pagination-change-page="getbracelet"></pagination>
-            </div>
+        </div>
+        <div class="pagin">
+            <pagination  :data="products" @pagination-change-page="getbracelet"></pagination>
         </div>
         <div class="add"></div>
     </div>
@@ -95,6 +95,7 @@ img:hover{
     width: 23em;
     height: 23em;
     margin-left: -5rem;
+
 }
 h5 {
     color: fuchsia;
@@ -114,10 +115,10 @@ h5 {
 
 }
 .pagin{
-    position: absolute;
-    top: 32rem;
+    position: relative;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    top: 2em;
 }
 .add{
     width: 100%;

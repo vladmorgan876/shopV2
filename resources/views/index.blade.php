@@ -24,9 +24,9 @@
             <router-view></router-view>
         </div>
     </main>
-{{--    <footer>--}}
-{{--        <footercomponent></footercomponent>--}}
-{{--    </footer>--}}
+    <footer>
+        <footercomponent></footercomponent>
+    </footer>
 
 </div>
 

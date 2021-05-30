@@ -26,10 +26,12 @@
                 </div>
             </div>
         </div>
+<!--    </div>-->
         <!--             paginate-->
-        <div class="pagin">  <pagination  :data="products" @pagination-change-page="getproduct"></pagination></div>
-
-    </div>
+        </div>
+        <div class="pagin">
+            <pagination  :data="products" @pagination-change-page="getproduct"></pagination>
+        </div>
         <div class="add"></div>
     </div>
 </template>
@@ -123,10 +125,10 @@ h5 {
 margin-top: 0.5rem;
 }
 .pagin{
-    position: absolute;
-    top: 32rem;
+    position: relative;
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    top: 2em;
 }
 .add{
     width: 100%;

@@ -2199,6 +2199,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "catalogcomponent",
@@ -2300,6 +2302,11 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "footercomponent"
 });
@@ -2318,6 +2325,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _splashscreen__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./splashscreen */ "./resources/js/components/splashscreen.vue");
+//
 //
 //
 //
@@ -2650,6 +2658,9 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
@@ -2702,6 +2713,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "splashscreen",
   data: function data() {
@@ -2716,12 +2728,14 @@ __webpack_require__.r(__webpack_exports__);
     setTimeout(function () {
       document.getElementsByClassName('circle2')[0].style.opacity = '0';
       document.getElementsByClassName('maincircle')[0].style.overflow = 'visible';
+      document.getElementsByClassName('text2')[0].style.opacity = '1';
     }, 1000);
     setTimeout(function () {
       document.getElementsByClassName('maincircle')[0].style.width = '23em';
       document.getElementsByClassName('maincircle')[0].style.height = '23em';
-      document.getElementsByClassName('maincircle')[0].style.top = '7.5em';
-      document.getElementsByClassName('maincircle')[0].style.left = '25em';
+      document.getElementsByClassName('maincircle')[0].style.top = '7.5em'; // document.getElementsByClassName('maincircle')[0].style.left = '25em';
+
+      document.getElementsByClassName('maincircle')[0].style.left = '8em';
       document.getElementsByClassName('text')[0].style.width = '23em';
       document.getElementsByClassName('text')[0].style.height = '23em';
       document.getElementsByClassName('text')[0].style.top = '7em';
@@ -2729,8 +2743,13 @@ __webpack_require__.r(__webpack_exports__);
       document.getElementsByClassName('text2')[0].style.fontSize = '8em';
       document.getElementsByClassName('text2')[0].style.textShadow = ' 0 0 1em #FFD700,0 0 2em #FFD700,0 0 3em #FFD700';
       document.getElementsByClassName('text2')[0].style.color = '#FFD700';
-    }, 11000);
-    setTimeout(this.flagscreen, 16000);
+    }, 6000);
+    setTimeout(function () {
+      document.getElementsByClassName('helen')[0].style.left = '24em';
+      document.getElementsByClassName('helentext')[0].style.fontSize = '2em';
+      document.getElementsByClassName('helentext')[0].style.textShadow = ' 0 0 1em #FFD700,0 0 2em #FFD700,0 0 3em #FFD700';
+    }, 10000);
+    setTimeout(this.flagscreen, 14000);
   },
   computed: {}
 }); // window.location.href = 'index2';
@@ -7466,7 +7485,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-e0dd8c8c]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size:100%,50%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-e0dd8c8c] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-e0dd8c8c] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-e0dd8c8c] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-e0dd8c8c]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-e0dd8c8c] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-e0dd8c8c]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-e0dd8c8c]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-e0dd8c8c]{\n    background-color: transparent;\n    margin-top: 0.5rem;\n}\n.pagin[data-v-e0dd8c8c]{\n    position: absolute;\n    top: 32rem;\n    display: flex;\n    justify-content: left;\n}\n.add[data-v-e0dd8c8c]{\n    width: 100%;\n    height: 80px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-e0dd8c8c]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size:100%,50%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-e0dd8c8c] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-e0dd8c8c] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-e0dd8c8c] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-e0dd8c8c]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-e0dd8c8c] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-e0dd8c8c]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-e0dd8c8c]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-e0dd8c8c]{\n    background-color: transparent;\n    margin-top: 0.5rem;\n}\n.pagin[data-v-e0dd8c8c]{\n    position: relative;\n    display: flex;\n    justify-content: center;\n    top: 2em;\n}\n.add[data-v-e0dd8c8c]{\n    width: 100%;\n    height: 80px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7514,7 +7533,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-82e9f562]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size: 100%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-82e9f562] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-82e9f562] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-82e9f562] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-82e9f562]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-82e9f562] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-82e9f562]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-82e9f562]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-82e9f562]{\n    background-color: transparent;\nmargin-top: 0.5rem;\n}\n.pagin[data-v-82e9f562]{\n    position: absolute;\n    top: 32rem;\n    display: flex;\n    justify-content: left;\n}\n.add[data-v-82e9f562]{\n    width: 100%;\n    height: 80px;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-82e9f562]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size: 100%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-82e9f562] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-82e9f562] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-82e9f562] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-82e9f562]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-82e9f562] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-82e9f562]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-82e9f562]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-82e9f562]{\n    background-color: transparent;\nmargin-top: 0.5rem;\n}\n.pagin[data-v-82e9f562]{\n    position: relative;\n    display: flex;\n    justify-content: center;\n    top: 2em;\n}\n.add[data-v-82e9f562]{\n    width: 100%;\n    height: 80px;\n}\n\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7562,7 +7581,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.footer[data-v-2faf1947]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.footer[data-v-2faf1947]{\n    /*background-image: url(\"/storage/newimage/fon2.jpg\");*/\n    text-align: right;\n    background-color: #f8f9fa;\n    width: 100%;\n    height: 4rem;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7634,7 +7653,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-7c2206ac]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size:100%,50%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-7c2206ac] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-7c2206ac] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-7c2206ac] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-7c2206ac]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-7c2206ac] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-7c2206ac]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-7c2206ac]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-7c2206ac]{\n    background-color: transparent;\n    margin-top: 0.5rem;\n}\n.pagin[data-v-7c2206ac]{\n    position: absolute;\n    top: 32rem;\n    display: flex;\n    justify-content: left;\n}\n.add[data-v-7c2206ac]{\n    width: 100%;\n    height: 80px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-7c2206ac]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size:100%,50%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-7c2206ac] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-7c2206ac] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-7c2206ac] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-7c2206ac]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-7c2206ac] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-7c2206ac]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-7c2206ac]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-7c2206ac]{\n    background-color: transparent;\n    margin-top: 0.5rem;\n}\n.pagin[data-v-7c2206ac]{\n    position: relative;\n    display: flex;\n    justify-content: center;\n    top: 2em;\n}\n.add[data-v-7c2206ac]{\n    width: 100%;\n    height: 80px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7658,7 +7677,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-5898d612]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size:100%,50%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-5898d612] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-5898d612] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-5898d612] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-5898d612]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-5898d612] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-5898d612]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-5898d612]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-5898d612]{\n    background-color: transparent;\n    margin-top: 0.5rem;\n}\n.pagin[data-v-5898d612]{\n    position: absolute;\n    top: 32rem;\n    display: flex;\n   justify-content: left;\n}\n.add[data-v-5898d612]{\n    width: 100%;\n    height: 80px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.fon[data-v-5898d612]{\n    background-image: url(\"/storage/newimage/fon2.jpg\");\n    background-size:100%,50%;\n    margin-top: 3em;\n}\n.productsINcatalog[data-v-5898d612] {\n    display: flex;\n    flex-wrap: wrap;\n    justify-content: center;\n    align-items: center;\n    margin-left: -3em;\n    margin-top: -3rem;\n}\n.products[data-v-5898d612] {\n    width: 12.4em;\n    height: 23em;\n    margin-top: 3em;\n    margin-left: 3em;\n    box-shadow: 1em 1em 2em grey;\n    border: 3px solid white;\n    border-radius: 0.5em;\n    overflow: hidden;\n}\nimg[data-v-5898d612] {\n    width: 13em;\n    height: 13em;\n}\nimg[data-v-5898d612]:hover{\n    width: 23em;\n    height: 23em;\n    margin-left: -5rem;\n}\nh5[data-v-5898d612] {\n    color: fuchsia;\n    text-align: center;\n    font-family: \"Noto Sans\";\n}\n.card-text[data-v-5898d612]{\n    font-family: \"Noto Sans\";\n}\n.card-body[data-v-5898d612]{\n    margin-top: -1em;\n    margin-left: -5.5rem;\n}\n.breadcrumb[data-v-5898d612]{\n    background-color: transparent;\n    margin-top: 0.5rem;\n}\n.pagin[data-v-5898d612]{\n    position: relative;\n    display: flex;\n    justify-content: center;\n    top: 2em;\n}\n.add[data-v-5898d612]{\n    width: 100%;\n    height: 80px;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -7682,7 +7701,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.main[data-v-78cf2044]{\n    position: relative;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 35em;\n    background-image:url(\"/storage/newimage/cosmos.jpg\");\n}\n.maincircle[data-v-78cf2044]{\n    position:absolute;\n    left: 27em;\n    top: 11em;\n    opacity: 1;\n    background-color: #F5F5F5;\n    width: 13em;\n    height: 13em;\n    border-radius: 50%;\n    transition: 3s;\n    box-shadow: 0 0 1em white,0 0 2em white,0 0 8em white,0 0 8em white;\n}\n.circle1[data-v-78cf2044],.circle2[data-v-78cf2044]{\n    left: 0;\n    top: 0;\n    width: 13em;\n    height: 13em;\n    position: absolute;\n}\n/*.circle1{*/\n/*    background-color:white;*/\n/*    transition: 3s;*/\n/*    border-radius: 50%;*/\n\n/*    box-shadow: 0 0 1em white,0 0 2em white,0 0 8em white,0 0 8em white;*/\n/*}*/\n.circle2[data-v-78cf2044]{\n    background-color:black;\n    transition: 10s;\n    border-radius: 50%;\n    opacity: 1;\n}\n.text[data-v-78cf2044]{\n    position: absolute;\n    left: 27.5em;\n    top: 11em;\n    transition: 3s;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 13em;\n    height: 13em;\n    letter-spacing: 1em;\n}\n.text2[data-v-78cf2044]{\n    font-family: BlinkMacSystemFont;\n    color: black;\n    font-size: 3em;\n    transition: 3s;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.main[data-v-78cf2044]{\n    position: relative;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 35em;\n    background-image:url(\"/storage/newimage/cosmos.jpg\");\n}\n.maincircle[data-v-78cf2044]{\n    position:absolute;\n    left: 27em;\n    top: 11em;\n    opacity: 1;\n    background-color: #F5F5F5;\n    width: 13em;\n    height: 13em;\n    border-radius: 50%;\n    transition: 3s;\n    box-shadow: 0 0 1em white,0 0 2em white,0 0 8em white,0 0 8em white;\n}\n.circle2[data-v-78cf2044]{\n    background-color:black;\n    transition: 5s;\n    border-radius: 50%;\n    opacity: 1;\n    left: 0;\n    top: 0;\n    width: 13em;\n    height: 13em;\n    position: absolute;\n}\n.text[data-v-78cf2044]{\n    position: absolute;\n    left: 27.5em;\n    top: 11em;\n    transition: 3s;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 13em;\n    height: 13em;\n    letter-spacing: 1em;\n}\n.text2[data-v-78cf2044]{\n    font-family: BlinkMacSystemFont;\n    opacity: 0;\n    color: #C0C0C0;\n    font-size: 3em;\n    transition: 3s;\n}\n.helen[data-v-78cf2044]{\n    position: absolute;\n    top: 13em;\n    left: 50em;\n    transition: 2s;\n}\n.helentext[data-v-78cf2044]{\n    font-family: BlinkMacSystemFont;\n    font-size: 0em;\n    color:#FFD700 ;\n    transition: 2s;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -40579,7 +40598,7 @@ var render = function() {
             },
             [_vm._v("Браслеты")]
           ),
-          _vm._v(" "),
+          _vm._v("-->\n            "),
           _c(
             "router-link",
             {
@@ -40598,66 +40617,64 @@ var render = function() {
     _c(
       "div",
       { staticClass: "productsINcatalog", attrs: { id: "qq" } },
-      [
-        _vm._l(_vm.products.data, function(product) {
-          return _c("div", { staticClass: "products" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _c(
-                "div",
-                { staticClass: "card-text", staticStyle: { color: "white" } },
-                [_vm._v(_vm._s(product.category))]
-              )
-            ]),
-            _vm._v(" "),
+      _vm._l(_vm.products.data, function(product) {
+        return _c("div", { staticClass: "products" }, [
+          _c("div", { staticClass: "card-header" }, [
             _c(
               "div",
-              {
-                staticClass: "card text-center",
-                staticStyle: { width: "18rem" }
-              },
-              [
-                _c("img", { attrs: { src: "/storage/" + product.image } }),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body " }, [
-                  _c("h4", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.name))
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.price))
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-outline-secondary",
-                      on: {
-                        click: function($event) {
-                          return _vm.addTOcart(product)
-                        }
-                      }
-                    },
-                    [_vm._v("в корзину")]
-                  )
-                ])
-              ]
+              { staticClass: "card-text", staticStyle: { color: "white" } },
+              [_vm._v(_vm._s(product.category))]
             )
-          ])
-        }),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "pagin" },
-          [
-            _c("pagination", {
-              attrs: { data: _vm.products },
-              on: { "pagination-change-page": _vm.getbracelet }
-            })
-          ],
-          1
-        )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "card text-center",
+              staticStyle: { width: "18rem" }
+            },
+            [
+              _c("img", { attrs: { src: "/storage/" + product.image } }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body " }, [
+                _c("h4", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.name))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.price))
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary",
+                    on: {
+                      click: function($event) {
+                        return _vm.addTOcart(product)
+                      }
+                    }
+                  },
+                  [_vm._v("в корзину")]
+                )
+              ])
+            ]
+          )
+        ])
+      }),
+      0
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "pagin" },
+      [
+        _c("pagination", {
+          attrs: { data: _vm.products },
+          on: { "pagination-change-page": _vm.getbracelet }
+        })
       ],
-      2
+      1
     ),
     _vm._v(" "),
     _c("div", { staticClass: "add" })
@@ -40839,7 +40856,7 @@ var render = function() {
             },
             [_vm._v("Главная")]
           ),
-          _vm._v("-->\n        "),
+          _vm._v("-->\n            "),
           _c(
             "li",
             {
@@ -40849,7 +40866,7 @@ var render = function() {
             },
             [_vm._v("Каталог")]
           ),
-          _vm._v("-->\n        "),
+          _vm._v("-->\n            "),
           _c(
             "router-link",
             {
@@ -40859,7 +40876,7 @@ var render = function() {
             },
             [_vm._v("Кольца")]
           ),
-          _vm._v("-->\n        "),
+          _vm._v("-->\n            "),
           _c(
             "router-link",
             {
@@ -40869,7 +40886,7 @@ var render = function() {
             },
             [_vm._v("Браслеты")]
           ),
-          _vm._v("-->\n        "),
+          _vm._v("-->\n            "),
           _c(
             "router-link",
             {
@@ -40879,7 +40896,7 @@ var render = function() {
             },
             [_vm._v("Кулоны")]
           ),
-          _vm._v("-->\n    ")
+          _vm._v("-->\n        ")
         ],
         1
       )
@@ -40888,66 +40905,64 @@ var render = function() {
     _c(
       "div",
       { staticClass: "productsINcatalog" },
-      [
-        _vm._l(_vm.products.data, function(product) {
-          return _c("div", { key: _vm.products.id, staticClass: "products" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _c(
-                "div",
-                { staticClass: "card-text", staticStyle: { color: "white" } },
-                [_vm._v(_vm._s(product.category))]
-              )
-            ]),
-            _vm._v(" "),
+      _vm._l(_vm.products.data, function(product) {
+        return _c("div", { key: _vm.products.id, staticClass: "products" }, [
+          _c("div", { staticClass: "card-header" }, [
             _c(
               "div",
-              {
-                staticClass: "card text-center",
-                staticStyle: { width: "18rem" }
-              },
-              [
-                _c("img", { attrs: { src: "/storage/" + product.image } }),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body " }, [
-                  _c("h5", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.name))
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.price))
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-outline-secondary",
-                      on: {
-                        click: function($event) {
-                          return _vm.addTOcart(product)
-                        }
-                      }
-                    },
-                    [_vm._v("в корзину")]
-                  )
-                ])
-              ]
+              { staticClass: "card-text", staticStyle: { color: "white" } },
+              [_vm._v(_vm._s(product.category))]
             )
-          ])
-        }),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "pagin" },
-          [
-            _c("pagination", {
-              attrs: { data: _vm.products },
-              on: { "pagination-change-page": _vm.getproduct }
-            })
-          ],
-          1
-        )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "card text-center",
+              staticStyle: { width: "18rem" }
+            },
+            [
+              _c("img", { attrs: { src: "/storage/" + product.image } }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body " }, [
+                _c("h5", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.name))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.price))
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary",
+                    on: {
+                      click: function($event) {
+                        return _vm.addTOcart(product)
+                      }
+                    }
+                  },
+                  [_vm._v("в корзину")]
+                )
+              ])
+            ]
+          )
+        ])
+      }),
+      0
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "pagin" },
+      [
+        _c("pagination", {
+          attrs: { data: _vm.products },
+          on: { "pagination-change-page": _vm.getproduct }
+        })
       ],
-      2
+      1
     ),
     _vm._v(" "),
     _c("div", { staticClass: "add" })
@@ -41017,12 +41032,14 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("nav", { staticClass: "navbar fixed-bottom navbar-light bg-light" }, [
-        _c("div", { staticClass: "container-fluid " }, [
-          _c("a", { staticClass: "navbar-brand", attrs: { href: "#" } }, [
-            _vm._v("Fixed bottom")
-          ])
+    return _c("div", { staticClass: "footer" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("p", { staticStyle: { color: "gray" } }, [
+          _vm._v("Helen biatlon Inc.")
+        ]),
+        _vm._v(" "),
+        _c("p", { staticStyle: { color: "gray", "margin-top": "-1rem" } }, [
+          _vm._v("All rights reserved.")
         ])
       ])
     ])
@@ -41058,7 +41075,7 @@ var render = function() {
     this.$store.state.flagscreen === "shown"
       ? _c("div", [
           _c("div", { staticClass: "mainpage" }, [
-            _c("div", [
+            _c("div", { staticStyle: { display: "flex" } }, [
               _c("svg", { attrs: { width: "580", height: "250" } }, [
                 _c("g", [
                   _c("path", {
@@ -41118,10 +41135,12 @@ var render = function() {
                     [_vm._v("made with love")]
                   )
                 ])
-              ])
+              ]),
+              _vm._v(" "),
+              _vm._m(0)
             ]),
             _vm._v(" "),
-            _vm._m(0),
+            _vm._m(1),
             _vm._v(" "),
             _c("div", { staticClass: "container" }, [
               _c(
@@ -41210,6 +41229,20 @@ var render = function() {
   ])
 }
 var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticStyle: { "margin-top": "2rem", "margin-left": "-18rem" } },
+      [
+        _c("h6", { staticStyle: { color: "white" } }, [
+          _vm._v("made by corporation Helen biatlon")
+        ])
+      ]
+    )
+  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -41407,27 +41440,6 @@ var render = function() {
                 _vm._v(" "),
                 _c(
                   "li",
-                  { staticClass: "nav-item active" },
-                  [
-                    _c(
-                      "router-link",
-                      {
-                        staticClass: "nav-link",
-                        attrs: { to: "/splashscreen" }
-                      },
-                      [
-                        _vm._v("Заставка "),
-                        _c("span", { staticClass: "sr-only" }, [
-                          _vm._v("(current)")
-                        ])
-                      ]
-                    )
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c(
-                  "li",
                   { staticClass: "nav-item" },
                   [
                     _c(
@@ -41468,7 +41480,7 @@ var render = function() {
                     },
                     [
                       _vm._v(
-                        "\n                        категории\n                    "
+                        "\n                        Все украшения\n                    "
                       )
                     ]
                   ),
@@ -41725,66 +41737,64 @@ var render = function() {
     _c(
       "div",
       { staticClass: "productsINcatalog", attrs: { id: "qq" } },
-      [
-        _vm._l(_vm.products.data, function(product) {
-          return _c("div", { staticClass: "products" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _c(
-                "div",
-                { staticClass: "card-text", staticStyle: { color: "white" } },
-                [_vm._v(_vm._s(product.category))]
-              )
-            ]),
-            _vm._v(" "),
+      _vm._l(_vm.products.data, function(product) {
+        return _c("div", { staticClass: "products" }, [
+          _c("div", { staticClass: "card-header" }, [
             _c(
               "div",
-              {
-                staticClass: "card text-center",
-                staticStyle: { width: "18rem" }
-              },
-              [
-                _c("img", { attrs: { src: "/storage/" + product.image } }),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body " }, [
-                  _c("h4", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.name))
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.price))
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-outline-secondary",
-                      on: {
-                        click: function($event) {
-                          return _vm.addTOcart(product)
-                        }
-                      }
-                    },
-                    [_vm._v("в корзину")]
-                  )
-                ])
-              ]
+              { staticClass: "card-text", staticStyle: { color: "white" } },
+              [_vm._v(_vm._s(product.category))]
             )
-          ])
-        }),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "pagin" },
-          [
-            _c("pagination", {
-              attrs: { data: _vm.products },
-              on: { "pagination-change-page": _vm.getpendant }
-            })
-          ],
-          1
-        )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "card text-center",
+              staticStyle: { width: "18rem" }
+            },
+            [
+              _c("img", { attrs: { src: "/storage/" + product.image } }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body " }, [
+                _c("h4", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.name))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.price))
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary",
+                    on: {
+                      click: function($event) {
+                        return _vm.addTOcart(product)
+                      }
+                    }
+                  },
+                  [_vm._v("в корзину")]
+                )
+              ])
+            ]
+          )
+        ])
+      }),
+      0
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "pagin" },
+      [
+        _c("pagination", {
+          attrs: { data: _vm.products },
+          on: { "pagination-change-page": _vm.getpendant }
+        })
       ],
-      2
+      1
     ),
     _vm._v(" "),
     _c("div", { staticClass: "add" })
@@ -41828,7 +41838,7 @@ var render = function() {
             },
             [_vm._v("Главная")]
           ),
-          _vm._v("-->\n            "),
+          _vm._v("-->\n                "),
           _c(
             "router-link",
             {
@@ -41838,7 +41848,7 @@ var render = function() {
             },
             [_vm._v("Каталог")]
           ),
-          _vm._v("-->\n            "),
+          _vm._v("-->\n                "),
           _c(
             "li",
             {
@@ -41848,7 +41858,7 @@ var render = function() {
             },
             [_vm._v("Кольца")]
           ),
-          _vm._v("-->\n            "),
+          _vm._v("-->\n                "),
           _c(
             "router-link",
             {
@@ -41858,7 +41868,7 @@ var render = function() {
             },
             [_vm._v("Браслеты")]
           ),
-          _vm._v("-->\n            "),
+          _vm._v("-->\n                "),
           _c(
             "router-link",
             {
@@ -41868,7 +41878,7 @@ var render = function() {
             },
             [_vm._v("Кулоны")]
           ),
-          _vm._v("-->\n        ")
+          _vm._v("-->\n            ")
         ],
         1
       )
@@ -41877,66 +41887,64 @@ var render = function() {
     _c(
       "div",
       { staticClass: "productsINcatalog", attrs: { id: "qq" } },
-      [
-        _vm._l(_vm.products.data, function(product) {
-          return _c("div", { staticClass: "products" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _c(
-                "div",
-                { staticClass: "card-text", staticStyle: { color: "white" } },
-                [_vm._v(_vm._s(product.category))]
-              )
-            ]),
-            _vm._v(" "),
+      _vm._l(_vm.products.data, function(product) {
+        return _c("div", { staticClass: "products" }, [
+          _c("div", { staticClass: "card-header" }, [
             _c(
               "div",
-              {
-                staticClass: "card text-center",
-                staticStyle: { width: "18rem" }
-              },
-              [
-                _c("img", { attrs: { src: "/storage/" + product.image } }),
-                _vm._v(" "),
-                _c("div", { staticClass: "card-body " }, [
-                  _c("h4", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.name))
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "card-text" }, [
-                    _vm._v(_vm._s(product.price))
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "button",
-                    {
-                      staticClass: "btn btn-outline-secondary",
-                      on: {
-                        click: function($event) {
-                          return _vm.addTOcart(product)
-                        }
-                      }
-                    },
-                    [_vm._v("в корзину")]
-                  )
-                ])
-              ]
+              { staticClass: "card-text", staticStyle: { color: "white" } },
+              [_vm._v(_vm._s(product.category))]
             )
-          ])
-        }),
-        _vm._v(" "),
-        _c(
-          "div",
-          { staticClass: "pagin" },
-          [
-            _c("pagination", {
-              attrs: { data: _vm.products },
-              on: { "pagination-change-page": _vm.getring }
-            })
-          ],
-          1
-        )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "card text-center",
+              staticStyle: { width: "18rem" }
+            },
+            [
+              _c("img", { attrs: { src: "/storage/" + product.image } }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body " }, [
+                _c("h4", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.name))
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "card-text" }, [
+                  _vm._v(_vm._s(product.price))
+                ]),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-outline-secondary",
+                    on: {
+                      click: function($event) {
+                        return _vm.addTOcart(product)
+                      }
+                    }
+                  },
+                  [_vm._v("в корзину")]
+                )
+              ])
+            ]
+          )
+        ])
+      }),
+      0
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "pagin" },
+      [
+        _c("pagination", {
+          attrs: { data: _vm.products },
+          on: { "pagination-change-page": _vm.getring }
+        })
       ],
-      2
+      1
     ),
     _vm._v(" "),
     _c("div", { staticClass: "add" })
@@ -41979,8 +41987,12 @@ var staticRenderFns = [
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "text" }, [
-          _c("h6", { staticClass: "text2" }, [_vm._v("octarine")])
+          _c("h6", { staticClass: "text2" }, [_vm._v("Octarine")])
         ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "helen" }, [
+        _c("h4", { staticClass: "helentext" }, [_vm._v("Helen Biatlon Inc.")])
       ])
     ])
   }

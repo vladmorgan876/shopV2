@@ -11,9 +11,9 @@
                 <li class="nav-item active">
                     <router-link class="nav-link" to="/">Главная <span class="sr-only">(current)</span></router-link>
                 </li>
-                <li class="nav-item active">
-                    <router-link class="nav-link" to="/splashscreen">Заставка <span class="sr-only">(current)</span></router-link>
-                </li>
+<!--                <li class="nav-item active">-->
+<!--                    <router-link class="nav-link" to="/splashscreen">Заставка <span class="sr-only">(current)</span></router-link>-->
+<!--                </li>-->
                 <li class="nav-item">
                     <router-link class="nav-link" to="/catalog">Каталог</router-link>
                 </li>
@@ -22,7 +22,7 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        категории
+                        Все украшения
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <router-link  class="dropdown-item" to="/ring">кольца</router-link>

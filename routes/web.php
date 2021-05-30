@@ -9,15 +9,11 @@ Route::get('/', function () {
 Route::fallback(function () {
     return view('index');
 });
-//Route::get('/index2', function () {
-//    return view('index2');
-//});
+
 
 
 Auth::routes();
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
 Route::get('/admin', 'App\Http\Controllers\AdminController@showform')->name('showform');
 Route::get('/mainPageAdmin', 'App\Http\Controllers\AdminController@mainPageAdmin')->name('mainPageAdmin');
 Route::post('administrator', 'App\Http\Controllers\AdminController@loginadmin')->name('administrator');
